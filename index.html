@@ -26,14 +26,20 @@
             color: #333;
         }
 
-        @media (max-width: 480px) {
+        @media (max-width: 768px) {
             body {
-                padding: 20px;
+                padding: 0;
+                margin: 0;
             }
 
             .container {
-                padding: 10px;
-                width: 100%;
+                width: 100vw;
+                height: 100vh;
+                margin: 0;
+                padding: 20px;
+                box-sizing: border-box;
+                border-radius: 0;
+                
             }
 
             input,
